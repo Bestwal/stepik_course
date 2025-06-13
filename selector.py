@@ -7,7 +7,7 @@ try:
     browser = webdriver.Chrome()
     browser.get(link)
 
-    browser.find_element(By.CSS_SELECTOR, ".form-control.first[placeholder='Input your first name']").send_keys("Ivan")
+    browser.find_element(By.CSS_SELECTOR, ".form-control.first[placeholder='Input your name']").send_keys("Ivan")
     browser.find_element(By.CSS_SELECTOR, '.form-control.second').send_keys("Petrov")
     browser.find_element(By.CSS_SELECTOR, '.form-control.third').send_keys("samara@.com")
     button = browser.find_element(By.CSS_SELECTOR, "[type='submit']")
