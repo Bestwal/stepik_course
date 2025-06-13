@@ -7,8 +7,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-LOGIN = "hammerfallsamara@mail.ru"
-PASSWORD = "patriot99"
 
 @pytest.mark.parametrize('link', [
     "https://stepik.org/lesson/236895/step/1",
